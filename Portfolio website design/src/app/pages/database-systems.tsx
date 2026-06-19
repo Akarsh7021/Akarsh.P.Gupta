@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Database, Code, Presentation, Users, Award, FileText, BookOpen, Target } from "lucide-react";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import erdDiagram from "figma:asset/c55bc7f2053901e1d426bc4ec2eea257ffbd0342.png";
-import erdRelationships from "figma:asset/562d04b236332ea598679355d198cdbd74c7c4b8.png";
-import erDiagramComplete from "figma:asset/2a561c1a81805b00332783a3d60f18d095c686f9.png";
-import relationshipSchema from "figma:asset/6235d18b064bb1d1fa9fa19ebfb0b2b3cf3dfd6f.png";
-import ddlQueries from "figma:asset/4a5a1886c80c6c25aee99605e0d58ace3b2ce07e.png";
+import { ImageWithFallback } from "../components/media/ImageWithFallback";
+import erdDiagram from "../../assets/c55bc7f2053901e1d426bc4ec2eea257ffbd0342.png";
+import erdRelationships from "../../assets/562d04b236332ea598679355d198cdbd74c7c4b8.png";
+import erDiagramComplete from "../../assets/2a561c1a81805b00332783a3d60f18d095c686f9.png";
+import relationshipSchema from "../../assets/6235d18b064bb1d1fa9fa19ebfb0b2b3cf3dfd6f.png";
+import ddlQueries from "../../assets/4a5a1886c80c6c25aee99605e0d58ace3b2ce07e.png";
 
 export default function DatabaseSystemsPage() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

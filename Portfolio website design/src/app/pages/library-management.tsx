@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Database, Code, Layout, Search, Users, Award, ExternalLink, Key, UserCircle, Shield, Github } from "lucide-react";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { ImageWithFallback } from "../components/media/ImageWithFallback";
 import { libraryHomepageImage, libraryCatalogImage, libraryHoldSystemImage, libraryAdminImage, libraryReportsImage, libraryBackendImage } from "../../assets/images";
 
 const LMS_BLUE = "#3B82F6";

@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { Github, ExternalLink } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./media/ImageWithFallback";
 import { useNavigate } from "react-router";
 
-import planetsBeyondImage1 from "figma:asset/f07a41f90e0b8d15ed0f25d36656452cffcb95a6.png";
-import planetsBeyondImage2 from "figma:asset/fa61859b79db9d4a2b19b15dcb45e430f937e63e.png";
-import libraryImage1 from "figma:asset/f56ac74cfab072250be943cf62dd4a8768d6a005.png";
-import libraryImage2 from "figma:asset/0be647f49016c24df355bc7f4d57e9e95e571254.png";
-import cloudMigrationImage1 from "figma:asset/9fd0fd230a1bfef14c94d628becb3c70d481a462.png";
-import cloudMigrationImage2 from "figma:asset/e991afe70d6a1d9e9cc298a694b9bbf8794beadc.png";
-import databaseSystemsHover from "figma:asset/ef84ba11850e26131022bb74e12231f6610731fe.png";
+import planetsBeyondImage1 from "../../assets/f07a41f90e0b8d15ed0f25d36656452cffcb95a6.png";
+import planetsBeyondImage2 from "../../assets/fa61859b79db9d4a2b19b15dcb45e430f937e63e.png";
+import libraryImage1 from "../../assets/f56ac74cfab072250be943cf62dd4a8768d6a005.png";
+import libraryImage2 from "../../assets/0be647f49016c24df355bc7f4d57e9e95e571254.png";
+import cloudMigrationImage1 from "../../assets/9fd0fd230a1bfef14c94d628becb3c70d481a462.png";
+import cloudMigrationImage2 from "../../assets/e991afe70d6a1d9e9cc298a694b9bbf8794beadc.png";
+import databaseSystemsHover from "../../assets/ef84ba11850e26131022bb74e12231f6610731fe.png";
 import employeeTrackingCard from "@/imports/Screenshot_2026-06-17_at_5.29.25_PM.png";
 import employeeTrackingHover from "@/imports/Screenshot_2026-06-17_at_4.20.35_PM.png";
 import saginCard from "@/imports/Screenshot_2026-05-21_at_5.10.46_PM.png";

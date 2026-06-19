@@ -12,7 +12,7 @@ import {
   ShieldCheck,
   Github,
 } from "lucide-react";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { ImageWithFallback } from "../components/media/ImageWithFallback";
 import dashboardImg from "@/imports/Screenshot_2026-06-17_at_4.20.35_PM.png";
 import employeesImg from "@/imports/Screenshot_2026-06-17_at_4.21.44_PM.png";
 import workHoursImg from "@/imports/Screenshot_2026-06-17_at_4.22.23_PM.png";

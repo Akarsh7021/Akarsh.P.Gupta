@@ -265,16 +265,8 @@ To use your own images:
 
 1. Place your image in a public folder or host it online
 2. Update the `image` field in your project with the URL
-3. Or use the special Figma asset import (see below)
-
-### Option 3: Using Figma Assets
-If you have a Figma asset:
-```typescript
-import myImage from "figma:asset/YOUR_ASSET_ID.png";
-
-// Then use in your project:
-image: myImage
-```
+3. For bundled images, place the file in `src/assets` and import it with a
+   normal relative path
 
 ---
 

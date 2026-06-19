@@ -1,5 +1,5 @@
 import { ExternalLink, Github } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./media/ImageWithFallback";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 

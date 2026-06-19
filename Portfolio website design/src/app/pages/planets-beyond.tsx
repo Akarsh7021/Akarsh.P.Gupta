@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Users, Award, Code, Palette, ExternalLink, Github } from "lucide-react";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
-import planetsBeyondHomepage from "figma:asset/7e3d9072622be1cc0ef502e29c6674a6d44f46c3.png";
-import homeSolarSystem from "figma:asset/15c76d6b64ab72d7806cee2f6fff313c52951bab.png";
-import beyondKuiperBelt from "figma:asset/a6e01919f28b8cc4445aca406dec7c59f8701ef8.png";
-import aboutPage from "figma:asset/b03209dc637b9a1c0ffe4ff5f0c314e50c5abf1f.png";
-import contactPage from "figma:asset/c8c35f2a4351f60fa750baf88efe3d81317273a7.png";
-import quizPage from "figma:asset/cf44dafd85c8bfab4dcdb16cf69b59c73eea781c.png";
-import figmaFramework from "figma:asset/c0aa9bc586ab8e05f6697a88ee061ed4cd35deac.png";
+import { ImageWithFallback } from "../components/media/ImageWithFallback";
+import planetsBeyondHomepage from "../../assets/7e3d9072622be1cc0ef502e29c6674a6d44f46c3.png";
+import homeSolarSystem from "../../assets/15c76d6b64ab72d7806cee2f6fff313c52951bab.png";
+import beyondKuiperBelt from "../../assets/a6e01919f28b8cc4445aca406dec7c59f8701ef8.png";
+import aboutPage from "../../assets/b03209dc637b9a1c0ffe4ff5f0c314e50c5abf1f.png";
+import contactPage from "../../assets/c8c35f2a4351f60fa750baf88efe3d81317273a7.png";
+import quizPage from "../../assets/cf44dafd85c8bfab4dcdb16cf69b59c73eea781c.png";
+import siteOverview from "../../assets/c0aa9bc586ab8e05f6697a88ee061ed4cd35deac.png";
 
 const PLANET_PURPLE = "#8B5CF6";
 const PLANET_PURPLE_LIGHT = "#A78BFA";
@@ -42,8 +42,8 @@ export default function PlanetsBeyondPage() {
       caption: "Quiz Page"
     },
     {
-      url: figmaFramework,
-      caption: "Figma Framework - Complete Site Overview"
+      url: siteOverview,
+      caption: "Complete Site Overview"
     }
   ];
 
@@ -163,7 +163,7 @@ export default function PlanetsBeyondPage() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Code className="w-5 h-5 flex-shrink-0" style={{ color: PLANET_PURPLE }} />
-                  <span>HTML, CSS, JavaScript, Figma</span>
+                  <span>HTML, CSS, JavaScript</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Palette className="w-5 h-5 flex-shrink-0" style={{ color: PLANET_PURPLE }} />
@@ -376,7 +376,7 @@ export default function PlanetsBeyondPage() {
               { name: "HTML5" },
               { name: "CSS" },
               { name: "JavaScript" },
-              { name: "Figma" }
+              { name: "Responsive Design" }
             ].map((tech) => (
               <div
                 key={tech.name}

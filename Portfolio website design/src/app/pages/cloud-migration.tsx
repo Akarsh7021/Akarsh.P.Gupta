@@ -1,5 +1,5 @@
 import { CheckCircle, AlertTriangle, Cloud, Shield, Database, Users } from "lucide-react";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { ImageWithFallback } from "../components/media/ImageWithFallback";
 import { serverManagerImage, ntfsPermissionsImage, sharepointActiveSitesImage, financeSiteImage, financeGroupMembershipImage, accessDeniedImage, financeDocumentLibraryImage, advancedSharingImage } from "../../assets/images";
 
 const CLOUD_BLUE = "#1E40AF";
