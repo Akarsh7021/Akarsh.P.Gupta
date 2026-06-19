@@ -42,19 +42,6 @@ This portfolio provides a central place to explore:
 Each project page includes its objectives, implementation details, visual
 documentation, and relevant links.
 
-## Deployment
-
-Deployment is handled by
-[GitHub Actions](.github/workflows/deploy-pages.yml). Every push to `main`
-builds the application and publishes it to GitHub Pages.
-
-To enable deployment:
-
-1. Open the repository's **Settings**.
-2. Select **Pages**.
-3. Set **Source** to **GitHub Actions**.
-4. Push the latest changes to `main`.
-
 ## Project Structure
 
 ```text
