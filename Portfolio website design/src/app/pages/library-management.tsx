@@ -74,7 +74,7 @@ export default function LibraryManagementPage() {
                 }}
               >
                 A comprehensive web-based system integrating front-end, back-end, and database design.
-                Built as part of System Development coursework at Conestoga College.
+                Built as part of System Development coursework at KPU .
               </p>
               <p
                 className="text-lg mb-8"
